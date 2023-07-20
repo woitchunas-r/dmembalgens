@@ -1,0 +1,661 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+ul {
+	padding: 0px!important;
+}
+.menu-principal {
+	width: 100%;
+	background-color:rgb(255, 255, 2);
+	height: 100px;
+} 
+main, content {
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+	
+}
+
+.redes-sociais ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.redes-sociais {
+	width: 30%;
+	float: right;
+}
+
+.header-2{
+	background-color: #ffffff;
+	width: 980px;
+	margin: 0 auto;
+	padding: 15px;
+	
+}
+.menu-urls{
+	height: 80px;
+	border-bottom: 3px solid white;
+    margin-bottom: 40px;
+}
+.menu ul li {
+	display: inline-block;
+	color: black;
+	margin-left: 15px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid rgb(216, 216, 14);
+}
+
+.menu ul li a:hover {
+    color: rgb(216, 216, 14);
+}
+
+.menu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform:uppercase;
+}
+
+.menu {
+	width: 50%;
+	float: left;
+}
+
+.busca {
+	text-align: center;
+	width: 42%;
+	float: right;
+}
+
+.busca input {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 96%;
+	margin-top: 11px;
+	width: 190px;
+	height: 30px;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+.texto-destaque p {
+    font-size: 30px;
+    color: black;
+}
+
+.col-2{
+    width:100%;
+	float:left;
+	position: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.col-100 {
+	width:100%;
+	float:left;
+	position: center;
+}
+
+button.slick-prev{
+	 font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+
+
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 50%;
+	top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+	padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.col-4 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+    margin-left: 20px;  
+    border: 0px;
+}
+.col-3 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; 
+    width: 15%;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 0px;  
+    border: 0px;
+}
+.bloco-imagem img {
+    margin: auto;
+    width: 150px;
+    height: auto;
+    border: 0px;
+}
+.bloco-imagem {
+    height: 250px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    border: 0px;
+}
+.bloco-imagemp {
+    height: 350px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left:  40px;
+    text-align: center;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+    text-align: center;
+    font-size: medium;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+
+.logo{
+    width: 215px;
+    margin-right: 10px;
+}
+
+.produto{
+    width: 180px;
+}
+
+p{
+    font-style: normal;
+    font-size: medium;
+    color: black;
+    text-align:justify;
+}
+
+.sobre{
+    text-align: left; 
+    font-size: 30px;
+    color: black;
+    margin: 40px;
+
+}
+.whatsapp-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+   
+}
+.whatsapp-button img{
+        width: 60px; 
+        height: 60px;
+    }
+.slider-principal{
+    width: 80%;
+    margin:auto;
+    
+}
+.mapa{
+    width: 50%;
+    margin: 50px;
+    margin-left: 350px;
+    padding: 20px;
+}
+.destaque{
+    width: 100px;
+}
+.destaquep{
+    width: 150px;
+}
+a{
+    color: black;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform:capitalize; 
+}
+a:hover {
+    border-bottom: 3px solid rgb(216, 216, 14);
+    color: rgb(216, 216, 14);
+}
+.produtos{
+    margin-left: 5%;
+}
+.preco{
+    text-align: center  ;
+}
+.rs{
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width:1000px){
+body{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+ul {
+	padding: 0px!important;
+}
+.menu-principal {
+	width: 1009px;
+	background-color:rgb(255, 255, 2);
+	height: 100px;
+} 
+main, content {
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+	
+}
+
+.redes-sociais ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.redes-sociais {
+	width: 30%;
+	float: right;
+}
+
+.header-2{
+	background-color: #ffffff;
+	width: 980px;
+	margin: 0 auto;
+	padding: 15px;
+	
+}
+.menu-urls{
+	height: 80px;
+	border-bottom: 3px solid white;
+    margin-bottom: 40px;
+}
+.menu ul li {
+	display: inline-block;
+	color: black;
+	margin-left: 15px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid rgb(216, 216, 14);
+}
+
+.menu ul li a:hover {
+    color: rgb(216, 216, 14);
+}
+
+.menu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform:uppercase;
+}
+
+.menu {
+	width: 50%;
+	float: left;
+}
+
+.busca {
+	text-align: center;
+	width: 42%;
+	float: right;
+}
+
+.busca input {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 96%;
+	margin-top: 11px;
+	width: 190px;
+	height: 30px;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+.texto-destaque p {
+    font-size: 30px;
+    color: black;
+}
+
+.col-2{
+    width:100%;
+	float:left;
+	position: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.col-100 {
+	width:100%;
+	float:left;
+	position: center;
+}
+
+button.slick-prev{
+	 font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+
+
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 50%;
+	top: 600px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+	padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.col-4 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+    margin-left: 20px;  
+    border: 0px;
+}
+.col-3 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; 
+    width: 15%;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 0px;  
+    border: 0px;
+}
+.bloco-imagem img {
+    margin: auto;
+    width: 150px;
+    height: auto;
+    border: 0px;
+}
+.bloco-imagem {
+    height: 250px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    border: 0px;
+}
+.bloco-imagemp {
+    height: 350px;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left:  40px;
+    text-align: center;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+    text-align: center;
+    font-size: medium;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+
+.logo{
+    width: 215px;
+    margin-right: 10px;
+}
+
+.produto{
+    width: 180px;
+}
+
+p{
+    font-style: normal;
+    font-size: medium;
+    color: black;
+    text-align:justify;
+}
+
+.sobre{
+    text-align: left; 
+    font-size: 30px;
+    color: black;
+    margin: 40px;
+
+}
+.whatsapp-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+   
+}
+.whatsapp-button img{
+        width: 90%; 
+        height: 60px;
+        padding-right: 60px;
+        padding-bottom: 30px;
+    }
+.slider-principal{
+    width: 80%;
+    margin:auto;
+    
+}
+.destaque{
+    width: 100px;
+}
+.destaquep{
+    width: 150px;
+}
+a{
+    color: black;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform:capitalize; 
+}
+a:hover {
+    border-bottom: 3px solid rgb(216, 216, 14);
+    color: rgb(216, 216, 14);
+}
+.produtos{
+    width: 980px;
+    padding-right: 40px;
+}
+.preco{
+    text-align: center  ;
+}
+.rs{
+    border: none;
+    background-color: transparent;
+}
+}
